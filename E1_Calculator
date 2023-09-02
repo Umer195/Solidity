@@ -1,0 +1,51 @@
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.9;
+
+
+/*
+-Every solidity file contains a contract at the begin 
+ similar to OOP in which we write all logic and code in Class
+-I wrote four functions with the keyword 
+    'public' : Functions declared as public can be called from anywhere, 
+    both within the contract and externally from other contracts or user transactions
+    'pure' : modifier used to declare that a function does not read or modify the 
+    state of the contrac
+    for the last function "Division" I used 'fixed' datatype for decimal point values
+
+*/
+
+
+
+contract Calculator{
+
+   
+    function addition(int x,int y) public pure returns(int) {
+       
+        int result= x+y;
+        return result;
+    }
+     function subtraction(int x,int y) public pure returns(int) {
+       
+        int result= x-y;
+        return result;
+    }
+
+     function multiplication(int x,int y) public pure returns(int) {
+       
+        int result= x*y;
+        return result;
+    }
+    
+     function division(fixed x,fixed y) public pure returns(fixed) {
+       
+        fixed result= fixed(x/y);
+        return result;
+    }
+
+
+
+
+
+
+
+}
