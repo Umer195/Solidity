@@ -1,7 +1,5 @@
 # Solidity
-I challenged myself and chatgpt to suggest me 9 foundation exercises to become good at this here I will post each practice exercise every now and then
-Certainly! Here are ten basic Solidity exercises and practices to help you reinforce your understanding of Solidity:
-
+These are 9 solidity foundational exercises to become good at comprehending Solidity !
 
 
 **1. Simple Calculator:**
